@@ -22,14 +22,14 @@ jxRequirements:
   cluster:
     azure:
       storage:
-        storageAccountName: jxsaferooster
+        storageAccountName: jxgladsculpin
     chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
     environmentGitOwner: msh-jx-1
     gitKind: github
     gitName: github
     gitServer: https://github.com
     provider: aks
-    registry: saferooster.azurecr.io
+    registry: gladsculpin.azurecr.io
   environments:
   - key: dev
     owner: msh-jx-1

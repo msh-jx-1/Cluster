@@ -39,7 +39,7 @@ jxRequirements:
   ingress:
     domain: 20.81.66.244.nip.io
     kind: ingress
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: -jx-observability.
     tls:
       email: ""
       enabled: false
