@@ -52,7 +52,7 @@ spec:
             - name: GIT_SECRET_MOUNT_PATH
               value: /secrets/git
             - name: AZURE_STORAGE_ACCOUNT
-              value: "jxsaferooster"
+              value: "jxgladsculpin"
           ports:
             - name: http
               containerPort: 8080
