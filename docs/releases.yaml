@@ -103,6 +103,26 @@
     sources:
     - https://github.com/jenkins-x-plugins/jx-build-controller
     version: 0.4.0
+  - apiVersion: v2
+    appVersion: latest
+    dependencies:
+    - condition: postgresql.useInternalInstance
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.13
+    description: Continuous Delivery Indicators for Jenkins X
+    firstDeployed: "2022-07-20T17:35:01Z"
+    home: https://github.com/jenkins-x/cd-indicators
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
+    lastDeployed: "2022-07-20T17:35:01Z"
+    name: cd-indicators
+    releaseName: cd-indicators
+    repositoryName: jxgh
+    repositoryUrl: https://jenkins-x-charts.github.io/repo
+    resourcePath: config-root/namespaces/jx/cd-indicators
+    sources:
+    - https://github.com/jenkins-x/cd-indicators
+    version: 0.0.13
 - namespace: nginx
   path: helmfiles/nginx/helmfile.yaml
   releases:

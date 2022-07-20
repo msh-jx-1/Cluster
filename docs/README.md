@@ -65,6 +65,13 @@
 	      <td><a href='https://jenkins-x.io/'>source</a></td>
 	    </tr>
     <tr>
+	      <td>cd-indicators</td>
+	      <td><a href='https://github.com/jenkins-x/cd-indicators' title='Continuous Delivery Indicators for Jenkins X'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> cd-indicators </a></td>
+	      <td>0.0.13</td>
+	      <td></td>
+	      <td><a href='https://github.com/jenkins-x/cd-indicators'>source</a></td>
+	    </tr>
+    <tr>
 		      <td colspan='5'><h3>nginx</h3></td>
 		    </tr>
 	    <tr>
