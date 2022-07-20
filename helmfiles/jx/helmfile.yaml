@@ -66,5 +66,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/jx-build-controller/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jxgh/cd-indicators
+  name: cd-indicators
 templates: {}
 renderedvalues: {}
