@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - msh-jx-1/Cluster
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.20.81.66.244.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
