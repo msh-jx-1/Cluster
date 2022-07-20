@@ -20,12 +20,20 @@ jxRequirements:
     enabled: false
     schedule: ""
   cluster:
+    azure:
+      storage:
+        storageAccountName: jxsaferooster
+    chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080
+    environmentGitOwner: msh-jx-1
     gitKind: github
     gitName: github
     gitServer: https://github.com
     provider: aks
+    registry: saferooster.azurecr.io
   environments:
   - key: dev
+    owner: msh-jx-1
+    repository: Cluster
   - key: staging
   - key: production
   ingress:
@@ -36,8 +44,14 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: msh-bot-1
   repository: nexus
   secretStorage: vault
+  storage:
+  - name: logs
+    url: azblob://logs
+  terraformVault: true
   vault: {}
   webhook: lighthouse
 jxRequirementsIngressExternalDNS:
